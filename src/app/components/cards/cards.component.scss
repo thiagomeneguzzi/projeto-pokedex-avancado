@@ -1,0 +1,22 @@
+.cards {
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.card {
+  width: 25%;
+  min-width: 200px;
+  background: aqua;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 16px;
+  margin: 12px 24px;
+  font-weight: bold;
+}
+
+.card-image {
+  width: 100%;
+}

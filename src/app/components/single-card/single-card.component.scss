@@ -1,0 +1,31 @@
+.cards {
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.card, .card-status {
+  width: 25%;
+  min-width: 200px;
+  background: aqua;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 16px;
+  margin: 12px 24px;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.types {
+  text-align: left;
+  margin-left: 16px;
+}
+
+.types-list {
+  margin-top: -12px;
+}
