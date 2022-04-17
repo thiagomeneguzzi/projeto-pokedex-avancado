@@ -1,9 +1,9 @@
 <div class="cards">
-  <div class="card">
+  <div class="card" [style]="pokemon.backgroundPokemonColor">
     <h2 class="card-name">{{pokemon.name}}</h2>
     <img class="card-image" src="{{pokemon.sprites.front_default}}" alt="">
   </div>
-  <div class="card-status">
+  <div class="card-status" [style]="pokemon.backgroundPokemonColor">
     <div class="types">
       <p><b>Tipos:</b></p>
       <ul class="types-list">

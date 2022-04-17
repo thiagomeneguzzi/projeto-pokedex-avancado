@@ -10,14 +10,15 @@
 .card, .card-status {
   width: 25%;
   min-width: 200px;
-  background: aqua;
   text-align: center;
   border: 1px solid gray;
   border-radius: 16px;
   margin: 12px 24px;
 }
 
-.card-name {
+.card {
+  padding: 12px;
+  font-weight: bold;
   text-transform: capitalize;
 }
 
@@ -28,8 +29,10 @@
 .types {
   text-align: left;
   margin-left: 16px;
+  margin-top: 12px;
 }
 
 .types-list {
   margin-top: -12px;
+  padding: 12px 24px;
 }
